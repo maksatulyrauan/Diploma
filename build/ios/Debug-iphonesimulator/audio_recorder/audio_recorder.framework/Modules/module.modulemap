@@ -1,0 +1,11 @@
+framework module audio_recorder {
+  umbrella header "audio_recorder-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module audio_recorder.Swift {
+    header "audio_recorder-Swift.h"
+    requires objc
+}
